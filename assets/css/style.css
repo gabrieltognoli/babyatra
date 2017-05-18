@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Raleway;
+}
+
+header {
+    display: flex;
+}
+
+.logotipo .img-logo {
+    max-width:350px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.menu {
+    padding-top: 40px;
+    padding-left: 650px;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #222222;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.menu i .fa.fa-home {
+    font-family: Raleway;
+}
+
+.banner .img-banner img {
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.banner .text-banner {
+    margin-top: 130px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    font-size: 25px;
+    position: absolute;
+    color: #222222;
+}
+
+.banner .cta-button button {
+    margin-top: 320px;
+    margin-left: 40px;
+    width: 210px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #E61B72;
+    font-size: 20px;
+    position: absolute;
+    font-family: Raleway;
+}
